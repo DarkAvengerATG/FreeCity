@@ -18,3 +18,8 @@ for i in range(d):
     asc=asc+[pn[i+1]-pn[i]]
 asc.sort()
 print(asc[-1])
+#Code in python that accepts two values and returns the greatest difference between two prime numbers lying between them.
+#I tried the upper limit as 10,100,1000,10000 etc and it followed the pattern 2,8,20,36...
+#I predicted ans of 100000 to be 72, turned out to be true
+#1000000 and 10000000 give 114 and 160 respectively.
+#And it comes from a known pattern.
